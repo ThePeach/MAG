@@ -1,0 +1,27 @@
+<mag>
+	<settings>
+		<title>MAG - Multimedia Ajax Gallery by The Peach</title>
+		<themes used="default">
+			<theme name="default" aka="Default Theme" version="1.0"/>
+		</themes>
+		<views>
+			<view name="default">Thumbnails listing and a small preview area</view>
+			<view name="preview">Big preview with a small set of thumbnails</view>
+			<view name="slideshow">Big preview in slideshow mode (thumbs hidden)</view>
+		</views>
+	</settings>
+	<users>
+		<user id="0">
+			<login>The Peach</login>
+			<password hash="md5">92a2816254ade92846fe70a93dd28f68</password>
+		</user>
+	</users>
+	<galleries>
+		<gallery id="0" pos='0' src="gallery-0.xml">
+			<title>Default Gallery</title>
+			<directory src="gallery/"/>
+			<view>default</view>
+			<created>2009-05-24</created>
+		</gallery>
+	</galleries>
+</mag>

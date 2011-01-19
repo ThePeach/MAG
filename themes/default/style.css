@@ -1,0 +1,17 @@
+body {
+	background-color: #333;
+	font-size: 12px;
+	font-family: Verdana, Tahoma, sans-serif;
+	color: #fff;
+}
+a {
+	color: #FFA500;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFCC6F;
+	text-decoration: underline;
+}
+#galleries a.active {
+	text-decoration: underline;
+}

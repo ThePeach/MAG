@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#overlay {
+	display: none;
+	text-align: center;	
+	background-color: #000;
+	position: absolute;
+	z-index: 20000;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#overlay img, #overlay fieldset {
+	margin: 0 auto;
+}
+
+#overlay fieldset {
+	width: 300px;
+	position: relative;
+	z-index: 20100;
+}
+#login_form .messagebox {
+	color: #990000;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+#overlay input {
+/*	display: block; */
+	margin-bottom: 3px;
+}
+#thumbnails img {
+	float: left;
+	margin: 5px;
+}
+#thumbnails div.loading {
+	width: 100px;
+	height: 100px;
+	background: url('themes/default/images/loader.gif') no-repeat center center;
+}
