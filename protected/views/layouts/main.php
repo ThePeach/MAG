@@ -44,9 +44,8 @@
 	<?php echo $content; ?>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+		<?php echo Yii::powered(); ?> 
+        <a href="https://github.com/ThePeach/MAG" title="Multimedia Ajax Gallery">MAG</a> v.<?php echo Yii::app()->params['magVersion']; ?>
 	</div><!-- footer -->
 
 </div><!-- page -->
